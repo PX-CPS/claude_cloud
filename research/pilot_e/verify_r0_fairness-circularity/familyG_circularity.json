@@ -1,0 +1,338 @@
+{
+ "C1:G01": {
+  "D0": {
+   "costs": {
+    "explicit:std": 47.6,
+    "el:std": 80.5
+   },
+   "value": -1.0
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 47.6,
+    "implicit:matrix": 60.1,
+    "el:std": 80.5
+   },
+   "value": -0.6
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 48.0,
+    "implicit:matrix": 60.5,
+    "implicit:gradres": 138.7,
+    "el:std": 80.9
+   },
+   "value": -0.6
+  },
+  "D2_gradres_minus_el": 57.8,
+  "D2_per_dof_residual_cost": 57.8
+ },
+ "C1:G03": {
+  "D0": {
+   "costs": {
+    "explicit:std": 600.9,
+    "el:std": 302.9
+   },
+   "value": 297.0
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 600.9,
+    "implicit:matrix": 391.2,
+    "el:std": 302.9
+   },
+   "value": 87.8
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 604.2,
+    "implicit:matrix": 393.7,
+    "implicit:gradres": 432.2,
+    "el:std": 304.1
+   },
+   "value": 89.0
+  },
+  "D2_gradres_minus_el": 128.1,
+  "D2_per_dof_residual_cost": 64.0
+ },
+ "C1:G04": {
+  "D0": {
+   "costs": {
+    "explicit:std": 3773.4,
+    "el:std": 646.1
+   },
+   "value": 3126.3
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 3773.4,
+    "implicit:matrix": 1040.4,
+    "el:std": 646.1
+   },
+   "value": 393.7
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 3780.9,
+    "implicit:matrix": 1046.7,
+    "implicit:gradres": 850.3,
+    "el:std": 648.6
+   },
+   "value": 201.1
+  },
+  "D2_gradres_minus_el": 201.7,
+  "D2_per_dof_residual_cost": 67.2
+ },
+ "C1:G05": {
+  "D0": {
+   "costs": {
+    "explicit:std": 64.6,
+    "el:std": 126.7
+   },
+   "value": -1.0
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 64.6,
+    "implicit:matrix": 76.5,
+    "el:std": 126.7
+   },
+   "value": -0.6
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 64.6,
+    "implicit:matrix": 76.5,
+    "implicit:gradres": 186.7,
+    "el:std": 126.7
+   },
+   "value": -0.6
+  },
+  "D2_gradres_minus_el": 60.0,
+  "D2_per_dof_residual_cost": 60.0
+ },
+ "C1:G06": {
+  "D0": {
+   "costs": {
+    "explicit:std": 94.7,
+    "el:std": 126.8
+   },
+   "value": -1.0
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 94.7,
+    "implicit:matrix": 124.4,
+    "el:std": 126.8
+   },
+   "value": -0.6
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 95.5,
+    "implicit:matrix": 125.3,
+    "implicit:gradres": 186.5,
+    "el:std": 127.7
+   },
+   "value": -0.6
+  },
+  "D2_gradres_minus_el": 58.8,
+  "D2_per_dof_residual_cost": 58.8
+ },
+ "C1:G07": {
+  "D0": {
+   "costs": {
+    "explicit:std": 248.3,
+    "el:std": 205.6
+   },
+   "value": 41.7
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 248.3,
+    "implicit:matrix": 221.4,
+    "el:std": 205.6
+   },
+   "value": 15.2
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 250.0,
+    "implicit:matrix": 223.0,
+    "implicit:gradres": 330.3,
+    "el:std": 206.0
+   },
+   "value": 16.4
+  },
+  "D2_gradres_minus_el": 124.3,
+  "D2_per_dof_residual_cost": 62.2
+ },
+ "C3:G01": {
+  "D0": {
+   "costs": {
+    "explicit:std": 81.8,
+    "el:std": 167.2
+   },
+   "value": -1.0
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 81.8,
+    "implicit:matrix": 134.4,
+    "el:std": 167.2
+   },
+   "value": -0.6
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 81.8,
+    "implicit:matrix": 134.4,
+    "implicit:gradres": 344.6,
+    "el:std": 167.2
+   },
+   "value": -0.6
+  },
+  "D2_gradres_minus_el": 177.4,
+  "D2_per_dof_residual_cost": 177.4
+ },
+ "C3:G03": {
+  "D0": {
+   "costs": {
+    "explicit:std": 1360.4,
+    "el:std": 692.8
+   },
+   "value": 666.6
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 1360.4,
+    "implicit:matrix": 959.6,
+    "el:std": 692.8
+   },
+   "value": 266.2
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 1360.4,
+    "implicit:matrix": 959.6,
+    "implicit:gradres": 1029.9,
+    "el:std": 692.8
+   },
+   "value": 266.2
+  },
+  "D2_gradres_minus_el": 337.1,
+  "D2_per_dof_residual_cost": 168.6
+ },
+ "C3:G04": {
+  "D0": {
+   "costs": {
+    "explicit:std": 7040.7,
+    "el:std": 1406.4
+   },
+   "value": 5633.4
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 7040.7,
+    "implicit:matrix": 2380.7,
+    "el:std": 1406.4
+   },
+   "value": 973.8
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 7040.7,
+    "implicit:matrix": 2380.7,
+    "implicit:gradres": 1899.1,
+    "el:std": 1406.4
+   },
+   "value": 492.2
+  },
+  "D2_gradres_minus_el": 492.7,
+  "D2_per_dof_residual_cost": 164.2
+ },
+ "C3:G05": {
+  "D0": {
+   "costs": {
+    "explicit:std": 114.7,
+    "el:std": 259.2
+   },
+   "value": -1.0
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 114.7,
+    "implicit:matrix": 141.0,
+    "el:std": 259.2
+   },
+   "value": -0.6
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 114.7,
+    "implicit:matrix": 141.0,
+    "implicit:gradres": 438.6,
+    "el:std": 259.2
+   },
+   "value": -0.6
+  },
+  "D2_gradres_minus_el": 179.4,
+  "D2_per_dof_residual_cost": 179.4
+ },
+ "C3:G06": {
+  "D0": {
+   "costs": {
+    "explicit:std": 193.5,
+    "el:std": 292.1
+   },
+   "value": -1.0
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 193.5,
+    "implicit:matrix": 252.7,
+    "el:std": 292.1
+   },
+   "value": -0.6
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 193.5,
+    "implicit:matrix": 252.7,
+    "implicit:gradres": 469.5,
+    "el:std": 292.1
+   },
+   "value": -0.6
+  },
+  "D2_gradres_minus_el": 177.4,
+  "D2_per_dof_residual_cost": 177.4
+ },
+ "C3:G07": {
+  "D0": {
+   "costs": {
+    "explicit:std": 556.9,
+    "el:std": 410.3
+   },
+   "value": 145.5
+  },
+  "D1": {
+   "costs": {
+    "explicit:std": 556.9,
+    "implicit:matrix": 504.3,
+    "el:std": 410.3
+   },
+   "value": 93.4
+  },
+  "D2": {
+   "costs": {
+    "explicit:std": 556.9,
+    "implicit:matrix": 504.3,
+    "implicit:gradres": 747.4,
+    "el:std": 410.3
+   },
+   "value": 93.4
+  },
+  "D2_gradres_minus_el": 337.1,
+  "D2_per_dof_residual_cost": 168.5
+ }
+}

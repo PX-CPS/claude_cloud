@@ -1,0 +1,19 @@
+{
+ "R1_b8_max_abs_dev_from_codim_formula": 5.684341886080802e-14,
+ "R1": {
+  "loo_codim_slope": 1.0,
+  "loo_nDOF_poly_EC_only": 1.0
+ },
+ "R2": {
+  "loo_codim_slope": 0.9927253047411999,
+  "loo_nDOF_poly_EC_only": 0.9998892233265412
+ },
+ "R3": {
+  "loo_codim_slope": 0.995093505100972,
+  "loo_nDOF_poly_EC_only": 0.9975937330823156
+ },
+ "R4": {
+  "loo_codim_slope": 0.9989230087499521,
+  "loo_nDOF_poly_EC_only": 0.9998105583843696
+ }
+}

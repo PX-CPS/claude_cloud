@@ -1,0 +1,135 @@
+[    0.0s] pilot E-v1 start; SPEC sha256: c5a53d22fd86b0849d89022a31f09144ed9c4bcaffbe8655df7bf63cdad28409
+truth P01 ok
+truth P02 ok
+truth P03 ok
+truth P04 ok
+truth P05 ok
+truth P06 ok
+truth P07 ok
+truth P08 ok
+truth P09 ok
+truth P10 ok
+truth P11 ok
+truth P12 ok
+truth P13 ok
+truth P14 ok
+truth P15 ok
+truth P16 ok
+truth P17 ok
+truth G01 ok
+truth G02 ok
+truth G03 ok
+truth G04 ok
+truth G05 ok
+truth G06 ok
+truth G07 ok
+[  177.4s] U1 True U7 True U8 True {'bits_class': 1.0025124758595942, 'bits_class_Kpos': 3.9933213774599463}
+[  234.4s] job C1-D1-B16-dup done in 57s nreps 472
+[  264.7s] job C2-D0-B16 done in 87s nreps 465
+[  270.6s] job C1-D0-B16 done in 93s nreps 465
+[  298.5s] job C1-D1-B16 done in 121s nreps 472
+[  329.4s] job C3-D0-B16 done in 95s nreps 465
+[  340.8s] job C2-D1-B16 done in 70s nreps 472
+[  356.3s] job C4-D0-B16 done in 92s nreps 465
+[  367.2s] job C3-D1-B16 done in 69s nreps 472
+[  379.2s] job C4-D1-B16 done in 50s nreps 472
+[  397.7s] job C1-D2-B16 done in 57s nreps 472
+[  408.8s] job C2-D2-B16 done in 52s nreps 472
+[  415.0s] job C4-D0-B8 done in 17s nreps 465
+[  417.5s] job C5-D0-B16 done in 2s nreps 465
+[  419.9s] job C3-D2-B16 done in 53s nreps 472
+[  422.8s] job C4-D0-B32 done in 14s nreps 465
+[  425.6s] job C5-D1-B16 done in 3s nreps 472
+[  426.9s] job C4-D2-B16 done in 48s nreps 472
+[  432.1s] job C4-D1-B8 done in 15s nreps 472
+[  434.1s] job C4-D1-B32 done in 14s nreps 472
+[  438.3s] job C5-D2-B16 done in 6s nreps 472
+[  445.3s] job C4-D2-B8 done in 20s nreps 472
+[  447.2s] job C4-D2-B32 done in 20s nreps 472
+[  447.2s] unit tests: {'U1': True, 'U7': True, 'U8': True, 'U2': True, 'U3': True, 'U4': True, 'U5': True, 'U6': True}
+[  456.7s] TrackR excluded P12 LC resid 1.51e+00
+[  457.2s] TrackR excluded P13 LC resid 2.90e-01
+[  463.5s] K1 fired: True ['machine']
+[  463.6s] K2-deg-G fired: False
+[  463.6s] K2-deg-R fired: True
+[  463.6s] EC constraint-type at primary setting -> running EC scaling test (7.3)
+scaling truth SNB2
+scaling truth SNB2
+scaling truth SNB2
+scaling truth SNB3
+scaling truth SNB3
+scaling truth SNB3
+scaling truth SNB2
+scaling truth SNB4
+scaling truth SNB4
+scaling truth SNB3
+scaling truth SNB4
+scaling truth SNB4
+scaling truth SNB5
+scaling truth SNB5
+scaling truth SNB5
+scaling truth SNB5
+scaling truth SNB6
+scaling truth SCH2
+scaling truth SCH3
+scaling truth SCH4
+scaling truth SCH5
+scaling truth SCH6
+scaling truth SCH7
+scaling truth SNB6
+scaling truth SCH8
+scaling truth SCH2
+scaling truth SCH9
+scaling truth SCH3
+scaling truth SCH10
+scaling truth SCH4
+scaling truth SCH5
+scaling truth SCH6
+scaling truth SCH7
+scaling truth SCH8
+scaling truth SCH9
+scaling truth SCH10
+scaling truth SNB6
+scaling truth SCH2
+scaling truth SCH3
+scaling truth SCH4
+scaling truth SCH5
+scaling truth SCH6
+scaling truth SNL1
+scaling truth SCH7
+scaling truth SCH8
+scaling truth SCH9
+scaling truth SCH10
+scaling truth SNL1
+scaling truth SNL1
+scaling truth SNB6
+scaling truth SCH2
+scaling truth SCH3
+scaling truth SCH4
+scaling truth SCH5
+scaling truth SCH6
+scaling truth SCH7
+scaling truth SCH8
+scaling truth SCH9
+scaling truth SCH10
+scaling truth SNL1
+scaling truth SNL2
+scaling truth SNL2
+scaling truth SNL2
+scaling truth SNL2
+scaling truth SNL3
+scaling truth SNL3
+scaling truth SNL3
+scaling truth SNL3
+scaling truth SNL4
+scaling truth SNL4
+scaling truth SNL4
+scaling truth SNL4
+[  648.6s] surplus C4 done; U5 max err 4.186566860261035e-14
+[  649.0s] surplus C1 done; U5 max err 4.186566860261035e-14
+[  650.7s] surplus C2 done; U5 max err 4.186566860261035e-14
+[  650.9s] surplus C3 done; U5 max err 4.186566860261035e-14
+[  650.9s] optional miner-on Shapley (all 512 theories, primary codes, D1)
+[ 1154.3s] miner-on Shapley done 503s
+[ 1154.4s] verdict: {"K1": {"fired": true, "subtests": ["machine"], "fragile": true}, "K2_deg_R": true, "K2_deg_G": false, "K2_collapse": "INDETERMINATE", "K2_collapse_gate": {"DIST": false, "KE": false, "POS": false, "passed": false}, "constraint_type_physical_laws": ["N2", "N3", "PC", "LC", "EC", "UG"], "K2_overall": false, "candidate": "ABANDON", "note_indeterminate": "K2-collapse INDETERMINATE is treated as not fired in K2_overall; analytic verdict applies to substitution-decoder laws"}
+[ 1154.4s] done in 1154s
