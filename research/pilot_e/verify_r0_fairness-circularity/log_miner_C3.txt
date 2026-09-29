@@ -1,0 +1,1 @@
+C3 fair tau 210.2 {'N2': 'constraint 552/549', 'N3': 'no-value -30/68', 'PC': 'constraint 396/396', 'LC': 'no-value -105/-105', 'EC': 'constraint 661/904', 'HK': 'no-value -184/-296', 'UG': 'abbreviation 423/-99', 'DIST': 'constraint 1194/882', 'KE': 'no-value -59/-59'}

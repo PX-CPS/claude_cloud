@@ -1,0 +1,1 @@
+C2 fair tau 60.2 {'N2': 'constraint 336/304', 'N3': 'no-value -31/42', 'PC': 'constraint 296/285', 'LC': 'no-value -252/-280', 'EC': 'no-value -8/39', 'HK': 'no-value -134/-282', 'UG': 'abbreviation 363/-7', 'DIST': 'mixed 342/123', 'KE': 'abbreviation 6/4'}

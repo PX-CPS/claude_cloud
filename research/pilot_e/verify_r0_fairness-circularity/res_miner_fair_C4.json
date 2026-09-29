@@ -1,0 +1,50 @@
+{
+ "tau": 54.0,
+ "labels": {
+  "N2": {
+   "V_mid": 378.1560339025491,
+   "Vplus_mid": 365.1419823519682,
+   "label": "constraint"
+  },
+  "N3": {
+   "V_mid": 77.88624803886387,
+   "Vplus_mid": 154.8525806076059,
+   "label": "constraint"
+  },
+  "PC": {
+   "V_mid": 266.84571993542886,
+   "Vplus_mid": 262.45982460621326,
+   "label": "constraint"
+  },
+  "LC": {
+   "V_mid": -156.60748452855796,
+   "Vplus_mid": -193.21626789280754,
+   "label": "no-value"
+  },
+  "EC": {
+   "V_mid": 517.6007090013018,
+   "Vplus_mid": 596.9631576545994,
+   "label": "constraint"
+  },
+  "HK": {
+   "V_mid": -111.62356344576392,
+   "Vplus_mid": -281.96764527638925,
+   "label": "no-value"
+  },
+  "UG": {
+   "V_mid": 405.7745853281035,
+   "Vplus_mid": -47.45159760509341,
+   "label": "abbreviation"
+  },
+  "DIST": {
+   "V_mid": 323.2024109540075,
+   "Vplus_mid": 120.30194644069616,
+   "label": "mixed"
+  },
+  "KE": {
+   "V_mid": -28.571276550062066,
+   "Vplus_mid": -30.87865519710249,
+   "label": "no-value"
+  }
+ }
+}

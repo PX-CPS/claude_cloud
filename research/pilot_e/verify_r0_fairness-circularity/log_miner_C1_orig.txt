@@ -1,0 +1,1 @@
+C1 orig tau 54.0 {'N2': 'constraint 530/429', 'N3': 'constraint 170/310', 'PC': 'constraint 332/263', 'LC': 'constraint 436/421', 'EC': 'constraint 962/1197', 'HK': 'abbreviation 113/-85', 'UG': 'constraint 992/578', 'DIST': 'mixed 328/90', 'KE': 'abbreviation 14/-6'}
