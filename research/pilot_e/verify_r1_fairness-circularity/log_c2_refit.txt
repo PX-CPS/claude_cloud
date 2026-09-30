@@ -1,0 +1,4 @@
+full C2 Phi {'N2': 294.9, 'N3': -40.4, 'PC': 238.4, 'LC': -124.6, 'EC': 623.2, 'HK': 260.8, 'UG': 824.8, 'DIST': 408.0, 'KE': 57.8}
+K1-primary: min rho 0.833 tops {'C1': 'EC', 'C2': 'UG', 'C3': 'EC', 'C4': 'EC'} fired True flips 6
+union C2 Phi {'N2': 261.3, 'N3': -10.0, 'PC': 207.0, 'LC': -121.4, 'EC': 582.8, 'HK': 209.7, 'UG': 688.3, 'DIST': 319.5, 'KE': 39.4}
+K1-primary: min rho 0.833 tops {'C1': 'EC', 'C2': 'UG', 'C3': 'EC', 'C4': 'EC'} fired True flips 6
