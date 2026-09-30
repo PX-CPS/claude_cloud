@@ -1,0 +1,121 @@
+{
+ "loso_primary+TBX": [
+  "P09",
+  "P10"
+ ],
+ "loso_primary+EQW": [
+  "P11"
+ ],
+ "loso_primary+NCT": [
+  "P09",
+  "P10"
+ ],
+ "loso_primary+C2F": [
+  "P10",
+  "P11"
+ ],
+ "drop_gravity_primary+TBX": {
+  "tops": {
+   "C1": "EC",
+   "C2": "EC",
+   "C3": "EC",
+   "C4": "EC",
+   "TBX": "EC"
+  },
+  "min_rho": 0.6166666666666666,
+  "flips": []
+ },
+ "drop_gravity_primary+EQW": {
+  "tops": {
+   "C1": "EC",
+   "C2": "EC",
+   "C3": "EC",
+   "C4": "EC",
+   "EQW": "EC"
+  },
+  "min_rho": 0.6166666666666666,
+  "flips": []
+ },
+ "drop_gravity_primary+NCT": {
+  "tops": {
+   "C1": "EC",
+   "C2": "EC",
+   "C3": "EC",
+   "C4": "EC",
+   "NCT": "EC"
+  },
+  "min_rho": 0.6166666666666666,
+  "flips": []
+ },
+ "drop_gravity_primary+C2F": {
+  "tops": {
+   "C1": "EC",
+   "C2": "EC",
+   "C3": "EC",
+   "C4": "EC",
+   "C2F": "EC"
+  },
+  "min_rho": 0.6166666666666666,
+  "flips": []
+ },
+ "margin_TBX": {
+  "top_new": "EC",
+  "ratio_in_primary": {
+   "C1": 1.0,
+   "C2": 0.8787177526885039,
+   "C3": 1.0,
+   "C4": 1.0
+  },
+  "ratio_primary_top_in_new": {
+   "C1": 1.0,
+   "C2": 0.619554624241538,
+   "C3": 1.0,
+   "C4": 1.0
+  }
+ },
+ "margin_EQW": {
+  "top_new": "UG",
+  "ratio_in_primary": {
+   "C1": 0.8824946640845641,
+   "C2": 1.0,
+   "C3": 0.319637940337208,
+   "C4": 0.5826678710590405
+  },
+  "ratio_primary_top_in_new": {
+   "C1": 0.5056509573740792,
+   "C2": 1.0,
+   "C3": 0.5056509573740792,
+   "C4": 0.5056509573740792
+  }
+ },
+ "margin_NCT": {
+  "top_new": "UG",
+  "ratio_in_primary": {
+   "C1": 0.8824946640845641,
+   "C2": 1.0,
+   "C3": 0.319637940337208,
+   "C4": 0.5826678710590405
+  },
+  "ratio_primary_top_in_new": {
+   "C1": 0.9707859848080119,
+   "C2": 1.0,
+   "C3": 0.9707859848080119,
+   "C4": 0.9707859848080119
+  }
+ },
+ "margin_C2F": {
+  "top_new": "UG",
+  "ratio_in_primary": {
+   "C1": 0.8824946640845641,
+   "C2": 1.0,
+   "C3": 0.319637940337208,
+   "C4": 0.5826678710590405
+  },
+  "ratio_primary_top_in_new": {
+   "C1": 0.7556061771889486,
+   "C2": 1.0,
+   "C3": 0.7556061771889486,
+   "C4": 0.7556061771889486
+  }
+ }
+}

@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/home/user/claude_cloud/research/pilot_e/verify_r1_fairness-circularity/map_miner.py", line 21, in <module>
+    r = J.mine(m, check=True)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/claude_cloud/research/pilot_e/pilot_v1/lattice.py", line 211, in mine
+    worst = max(worst, self.decoders[m.sid].check(prep, templates=tenv))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/claude_cloud/research/pilot_e/pilot_v1/semantics.py", line 337, in check
+    a = self.decode(rep, templates, p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/claude_cloud/research/pilot_e/pilot_v1/semantics.py", line 263, in decode
+    se = symenv_fn()
+         ^^^^^^^^^^^
+  File "/home/user/claude_cloud/research/pilot_e/pilot_v1/semantics.py", line 256, in symenv_fn
+    symenv_cache.append(self.sym_env(rep, templates))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/claude_cloud/research/pilot_e/pilot_v1/semantics.py", line 183, in sym_env
+    val = self.to_sym(tid, env, templates)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/claude_cloud/research/pilot_e/pilot_v1/semantics.py", line 175, in to_sym
+    return rec(i, symenv)
+           ^^^^^^^^^^^^^^
+  File "/home/user/claude_cloud/research/pilot_e/pilot_v1/semantics.py", line 162, in rec
+    args = [rec(c, env) for c in ch]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/claude_cloud/research/pilot_e/pilot_v1/semantics.py", line 162, in <listcomp>
+    args = [rec(c, env) for c in ch]
+            ^^^^^^^^^^^
+  File "/home/user/claude_cloud/research/pilot_e/pilot_v1/semantics.py", line 116, in rec
+    raise KeyError(label)
+KeyError: ('b', 'G03', 'q')

@@ -1,39 +1,69 @@
-[    0.0s] pilot E-v1 start; SPEC sha256: c5a53d22fd86b0849d89022a31f09144ed9c4bcaffbe8655df7bf63cdad28409
+[    0.0s] pilot E-v1 (repair r1) start; SPEC sha256: c5a53d22fd86b0849d89022a31f09144ed9c4bcaffbe8655df7bf63cdad28409
 [    0.8s] U1 True U7 True U8 True {'bits_class': 1.0025124758595942, 'bits_class_Kpos': 3.9933213774599463}
-[   33.5s] job C1-D1-B16-dup done in 33s nreps 472
-[   46.6s] job C2-D0-B16 done in 46s nreps 465
-[   49.6s] job C1-D0-B16 done in 49s nreps 465
-[   62.7s] job C1-D1-B16 done in 62s nreps 472
-[   75.8s] job C3-D0-B16 done in 42s nreps 465
-[   81.5s] job C2-D1-B16 done in 32s nreps 472
-[   88.9s] job C4-D0-B16 done in 42s nreps 465
-[   98.2s] job C3-D1-B16 done in 35s nreps 472
-[  105.5s] job C4-D1-B16 done in 30s nreps 472
-[  118.3s] job C1-D2-B16 done in 37s nreps 472
-[  125.4s] job C2-D2-B16 done in 37s nreps 472
-[  130.9s] job C4-D0-B8 done in 13s nreps 465
-[  133.8s] job C5-D0-B16 done in 3s nreps 465
-[  137.2s] job C3-D2-B16 done in 39s nreps 472
-[  139.0s] job C4-D0-B32 done in 14s nreps 465
-[  141.2s] job C4-D2-B16 done in 36s nreps 472
-[  141.4s] job C5-D1-B16 done in 2s nreps 472
-[  146.9s] job C4-D1-B8 done in 13s nreps 472
-[  150.2s] job C4-D1-B32 done in 13s nreps 472
-[  152.1s] job C5-D2-B16 done in 5s nreps 472
-[  159.9s] job C4-D2-B32 done in 19s nreps 472
-[  160.3s] job C4-D2-B8 done in 19s nreps 472
-[  160.3s] unit tests: {'U1': True, 'U7': True, 'U8': True, 'U2': True, 'U3': True, 'U4': True, 'U5': True, 'U6': True}
-[  168.9s] TrackR excluded P12 LC resid 1.51e+00
-[  169.3s] TrackR excluded P13 LC resid 2.90e-01
-[  175.9s] K1 fired: True ['machine']
-[  175.9s] K2-deg-G fired: False
-[  175.9s] K2-deg-R fired: True
-[  175.9s] EC constraint-type at primary setting -> running EC scaling test (7.3)
-[  184.0s] surplus C1 done; U5 max err 4.186566860261035e-14
-[  185.1s] surplus C4 done; U5 max err 4.186566860261035e-14
-[  185.8s] surplus C2 done; U5 max err 4.186566860261035e-14
-[  187.5s] surplus C3 done; U5 max err 4.186566860261035e-14
-[  187.5s] optional miner-on Shapley (all 512 theories, primary codes, D1)
-[  692.2s] miner-on Shapley done 505s
-[  692.2s] verdict: {"K1": {"fired": true, "subtests": ["machine"], "fragile": true}, "K2_deg_R": true, "K2_deg_G": false, "K2_collapse": "INDETERMINATE", "K2_collapse_gate": {"DIST": false, "KE": false, "POS": false, "passed": false}, "constraint_type_physical_laws": ["N2", "N3", "PC", "LC", "EC", "UG"], "K2_overall": false, "candidate": "ABANDON", "note_indeterminate": "K2-collapse INDETERMINATE is treated as not fired in K2_overall; analytic verdict applies to substitution-decoder laws"}
-[  692.2s] done in 692s
+[  143.0s] job C2-D1-B16 done in 142s nreps 472
+[  154.2s] job C1-D2-B16 done in 153s nreps 472
+[  172.6s] job C2-D2-B16 done in 172s nreps 472
+[  174.3s] job C1-D1-B16 done in 173s nreps 472
+[  245.4s] job C4-D1-B16 done in 73s nreps 472
+[  271.8s] job C4-D2-B16 done in 98s nreps 472
+[  281.2s] job C3-D1-B16 done in 138s nreps 472
+[  291.6s] job C1-D0-B16 done in 46s nreps 465
+[  305.7s] job C1-D1-B16-dup done in 34s nreps 472
+[  313.6s] job C1-D1-B16-noaddbase done in 32s nreps 472
+[  329.8s] job C1-D2M-B16 done in 38s nreps 472
+[  330.8s] job C3-D2-B16 done in 177s nreps 472
+[  344.4s] job C2-D1-B16-noaddbase done in 31s nreps 472
+[  349.4s] job C2-D0-B16 done in 44s nreps 465
+[  370.6s] job C3-D0-B16 done in 40s nreps 465
+[  370.7s] job C2-D2M-B16 done in 41s nreps 472
+[  376.4s] job C3-D1-B16-noaddbase done in 32s nreps 472
+[  399.1s] job C4-D1-B16-noaddbase done in 28s nreps 472
+[  401.0s] job C3-D2M-B16 done in 52s nreps 472
+[  409.1s] job C1-D0-B16-noaddbase done in 10s nreps 465
+[  410.2s] job C1-D1-B16-abl-all_off done in 9s nreps 472
+[  414.2s] job C4-D0-B16 done in 44s nreps 465
+[  419.9s] job C4-D2M-B16 done in 43s nreps 472
+[  421.4s] job C1-D1-B16-abl-gradres_scope done in 12s nreps 472
+[  423.6s] job C1-D1-B16-abl-n2_factored done in 9s nreps 472
+[  425.6s] job C1-D1-B16-abl-lc_vec done in 15s nreps 472
+[  431.6s] job C1-D1-B16-abl-side_info done in 12s nreps 472
+[  432.6s] job C1-D1-B16-abl-stmt_cse done in 11s nreps 472
+[  436.1s] job C2-D0-B16-noaddbase done in 10s nreps 465
+[  439.8s] job C1-D2-B16-noaddbase done in 16s nreps 472
+[  447.5s] job C2-D2-B16-noaddbase done in 16s nreps 472
+[  449.3s] job C3-D0-B16-noaddbase done in 17s nreps 465
+[  453.5s] job C4-D0-B16-noaddbase done in 14s nreps 465
+[  456.2s] job C3-D2-B16-noaddbase done in 20s nreps 472
+[  466.6s] job C4-D0-B32 done in 19s nreps 465
+[  467.5s] job C4-D0-B8 done in 18s nreps 465
+[  472.4s] job C4-D1-B32 done in 19s nreps 472
+[  474.5s] job C4-D1-B8 done in 18s nreps 472
+[  478.2s] job C5-D0-B16 done in 4s nreps 465
+[  481.5s] job C5-D1-B16 done in 3s nreps 472
+[  487.7s] job C4-D2-B16-noaddbase done in 21s nreps 472
+[  490.2s] job C5-D2-B16 done in 9s nreps 472
+[  495.7s] job C4-D2-B32 done in 28s nreps 472
+[  500.4s] job C4-D2-B8 done in 28s nreps 472
+[  507.6s] job C6-D0-B16 done in 20s nreps 465
+[  509.4s] job C6-D1-B16 done in 19s nreps 472
+[  512.4s] job C7-D0-B16 done in 12s nreps 465
+[  520.9s] job C7-D1-B16 done in 13s nreps 472
+[  524.4s] job C9-D0-B16 done in 12s nreps 465
+[  526.6s] job C6-D2-B16 done in 31s nreps 472
+[  530.1s] job C7-D2-B16 done in 21s nreps 472
+[  532.5s] job C9-D1-B16 done in 12s nreps 472
+[  543.7s] job C9-D2-B16 done in 19s nreps 472
+[  543.7s] unit tests: {'U1': True, 'U7': True, 'U8': True, 'U2': True, 'U3': True, 'U4': True, 'U5': True, 'U6': True}
+[  556.1s] TrackR excluded P13 LC resid 4.57e-01
+[  566.3s] K1 fired: True ['primary', 'machine']
+[  566.3s] K2-deg-G fired: False
+[  566.3s] K2-deg-R fired: True (EC_sym alternative: False )
+[  566.4s] EC constraint-type at primary setting -> running EC scaling test (7.3)
+[  575.5s] surplus C2 done; U5 max err 4.186566860261035e-14
+[  575.8s] surplus C1 done; U5 max err 4.186566860261035e-14
+[  576.0s] surplus C4 done; U5 max err 4.186566860261035e-14
+[  577.9s] surplus C3 done; U5 max err 4.186566860261035e-14
+[  578.0s] optional miner-on Shapley (all 512 theories, primary codes, D1)
+[ 1087.9s] miner-on Shapley done 510s
+[ 1088.1s] verdict: {"K1": {"fired": true, "subtests": ["primary", "machine"], "fragile": false, "primary_charged_fired": true, "machine_charged_fired": true, "extended_D1_uncharged_fired": true, "precision_by_level": {"D0": false, "D1": false, "D2": false}}, "K2_deg_R": true, "K2_deg_R_ECsym_alternative": false, "K2_deg_G": false, "K2_collapse": "INDETERMINATE", "K2_collapse_operative": "not fired", "K2_collapse_gate": {"DIST": false, "KE": false, "POS": false, "passed": false}, "constraint_type_physical_laws": ["PC", "EC"], "constraint_type_operative": ["EC"], "K2_overall": false, "K2_overall_if_indeterminate_counts_as_not_fired": false, "candidate": "ABANDON", "note_indeterminate": "The validity gate failed, so K2-collapse is INDETERMINATE (literal). Operative verdict (spec section 8 fallback): substitution-decoder laws take the analytic abbreviation result; EC keeps its measured label."}
+[ 1088.1s] done in 1088s

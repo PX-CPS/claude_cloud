@@ -1,0 +1,69 @@
+[    0.0s] pilot E-v1 (repair r1) start; SPEC sha256: c5a53d22fd86b0849d89022a31f09144ed9c4bcaffbe8655df7bf63cdad28409
+[  194.7s] U1 True U7 True U8 True {'bits_class': 1.0025124758595942, 'bits_class_Kpos': 3.9933213774599463}
+[  427.0s] job C2-D1-B16 done in 232s nreps 472
+[  440.2s] job C1-D2-B16 done in 245s nreps 472
+[  462.2s] job C2-D2-B16 done in 267s nreps 472
+[  462.4s] job C1-D1-B16 done in 268s nreps 472
+[  548.1s] job C4-D1-B16 done in 86s nreps 472
+[  573.1s] job C4-D2-B16 done in 111s nreps 472
+[  578.8s] job C3-D1-B16 done in 152s nreps 472
+[  593.1s] job C1-D0-B16 done in 45s nreps 465
+[  605.1s] job C1-D1-B16-dup done in 32s nreps 472
+[  610.7s] job C1-D1-B16-noaddbase done in 32s nreps 472
+[  628.8s] job C3-D2-B16 done in 189s nreps 472
+[  632.2s] job C1-D2M-B16 done in 39s nreps 472
+[  642.4s] job C2-D1-B16-noaddbase done in 32s nreps 472
+[  650.4s] job C2-D0-B16 done in 45s nreps 465
+[  672.3s] job C2-D2M-B16 done in 43s nreps 472
+[  675.6s] job C3-D1-B16-noaddbase done in 33s nreps 472
+[  680.0s] job C3-D0-B16 done in 48s nreps 465
+[  703.7s] job C3-D2M-B16 done in 53s nreps 472
+[  705.0s] job C4-D1-B16-noaddbase done in 29s nreps 472
+[  714.3s] job C1-D0-B16-noaddbase done in 11s nreps 465
+[  714.5s] job C1-D1-B16-abl-all_off done in 9s nreps 472
+[  716.5s] job C4-D0-B16 done in 44s nreps 465
+[  723.4s] job C4-D2M-B16 done in 43s nreps 472
+[  725.8s] job C1-D1-B16-abl-n2_factored done in 9s nreps 472
+[  726.2s] job C1-D1-B16-abl-gradres_scope done in 12s nreps 472
+[  728.4s] job C1-D1-B16-abl-lc_vec done in 14s nreps 472
+[  734.8s] job C1-D1-B16-abl-side_info done in 11s nreps 472
+[  736.6s] job C1-D1-B16-abl-stmt_cse done in 11s nreps 472
+[  739.1s] job C2-D0-B16-noaddbase done in 11s nreps 465
+[  742.3s] job C1-D2-B16-noaddbase done in 16s nreps 472
+[  750.8s] job C2-D2-B16-noaddbase done in 16s nreps 472
+[  751.9s] job C3-D0-B16-noaddbase done in 15s nreps 465
+[  755.3s] job C4-D0-B16-noaddbase done in 13s nreps 465
+[  757.3s] job C3-D2-B16-noaddbase done in 18s nreps 472
+[  769.2s] job C4-D0-B32 done in 18s nreps 465
+[  770.2s] job C4-D0-B8 done in 18s nreps 465
+[  773.3s] job C4-D1-B32 done in 18s nreps 472
+[  775.5s] job C4-D1-B8 done in 18s nreps 472
+[  779.1s] job C5-D0-B16 done in 3s nreps 465
+[  782.5s] job C5-D1-B16 done in 3s nreps 472
+[  789.3s] job C4-D2-B16-noaddbase done in 20s nreps 472
+[  791.0s] job C5-D2-B16 done in 8s nreps 472
+[  800.2s] job C4-D2-B32 done in 30s nreps 472
+[  801.6s] job C4-D2-B8 done in 28s nreps 472
+[  810.3s] job C6-D0-B16 done in 21s nreps 465
+[  812.5s] job C6-D1-B16 done in 21s nreps 472
+[  814.6s] job C7-D0-B16 done in 13s nreps 465
+[  823.5s] job C7-D1-B16 done in 13s nreps 472
+[  826.3s] job C9-D0-B16 done in 12s nreps 465
+[  831.5s] job C6-D2-B16 done in 31s nreps 472
+[  832.6s] job C7-D2-B16 done in 20s nreps 472
+[  834.9s] job C9-D1-B16 done in 11s nreps 472
+[  844.5s] job C9-D2-B16 done in 18s nreps 472
+[  844.5s] unit tests: {'U1': True, 'U7': True, 'U8': True, 'U2': True, 'U3': True, 'U4': True, 'U5': True, 'U6': True}
+[  856.0s] TrackR excluded P13 LC resid 4.57e-01
+[  865.7s] K1 fired: True ['primary', 'machine']
+[  865.7s] K2-deg-G fired: False
+[  865.7s] K2-deg-R fired: True (EC_sym alternative: False )
+[  865.8s] EC constraint-type at primary setting -> running EC scaling test (7.3)
+[ 1043.0s] surplus C1 done; U5 max err 4.186566860261035e-14
+[ 1043.6s] surplus C4 done; U5 max err 4.186566860261035e-14
+[ 1044.6s] surplus C2 done; U5 max err 4.186566860261035e-14
+[ 1045.8s] surplus C3 done; U5 max err 4.186566860261035e-14
+[ 1045.9s] optional miner-on Shapley (all 512 theories, primary codes, D1)
+[ 1549.3s] miner-on Shapley done 503s
+[ 1549.5s] verdict: {"K1": {"fired": true, "subtests": ["primary", "machine"], "fragile": false, "primary_charged_fired": true, "machine_charged_fired": true, "extended_D1_uncharged_fired": true, "precision_by_level": {"D0": false, "D1": false, "D2": false}}, "K2_deg_R": true, "K2_deg_R_ECsym_alternative": false, "K2_deg_G": false, "K2_collapse": "INDETERMINATE", "K2_collapse_operative": "not fired", "K2_collapse_gate": {"DIST": false, "KE": false, "POS": false, "passed": false}, "constraint_type_physical_laws": ["PC", "EC"], "constraint_type_operative": ["EC"], "K2_overall": false, "K2_overall_if_indeterminate_counts_as_not_fired": false, "candidate": "ABANDON", "note_indeterminate": "The validity gate failed, so K2-collapse is INDETERMINATE (literal). Operative verdict (spec section 8 fallback): substitution-decoder laws take the analytic abbreviation result; EC keeps its measured label."}
+[ 1549.5s] done in 1549s
